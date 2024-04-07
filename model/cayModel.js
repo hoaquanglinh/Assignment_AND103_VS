@@ -2,18 +2,18 @@ const mongoose = require('mongoose');
 const caySchema = mongoose.Schema({
     ten: {
         type: String,
-        require: true
+        required: true
     },
     anh: {
         type: String
     },
     gia: {
         type: Number,
-        require: true
+        required: true
     },
     kichthuoc: {
         type: String,
-        require: true
+        required: true
     }
 })
 
